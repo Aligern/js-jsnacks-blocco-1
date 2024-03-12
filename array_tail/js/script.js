@@ -9,7 +9,7 @@ let userList = [
 
 // we do a for loop defined by the user prompt
 for (let i = 0; i <= userNumber; i++) {
-    console.log(i,'index');
+    //console.log(i,'index');
     let random =  getRndInteger(1,100);
     console.log(random,'random');
     userList.push(random);
@@ -21,9 +21,7 @@ let newArray = userList.slice(-userEndList);
 if (isNaN(userEndList)) {
     console.log(userEndList);
 }
-
 console.log(newArray);
-
 
 // randomizer function:
 function getRndInteger(min, max) {
